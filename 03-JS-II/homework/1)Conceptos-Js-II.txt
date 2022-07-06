@@ -1,0 +1,17 @@
+* `for`: for es una expresión de bucle que permite repetir un bloque
+de codigo muchas veces, evalua expresiones hasta que devuelve lo que 
+estamos buscando o se detiene despues de cierto tiempo.
+
+* `&&`, `||`, `!`: son operadores lógicos y se utilizan para evaluar
+dos o mas expresiones, que pueden utilizar operadores relacionales o
+de comparación (<,<=,>,>=,===,!==) para determinar si las expresiones son verdaderas o 
+falsas según el operador emmpleado.
+&& ("and" o "y") evalua dos expresiones y devuelve verdadero si ambas
+expresiones son true, si una de las expresiones o las dos son falsas
+devolvera false. 
+|| ("or" u "o") evalua dos expresiones y devuelve verdadero si una o 
+ambas de las expresiones es true, si ambas expresiones son falsas
+devolvera false.
+! ("not" o "no") devolvera el valor opuesto de lo que se le pasa, si
+la expresion es verdadera devolvera false, si la expresión es falsa
+devolvera true.

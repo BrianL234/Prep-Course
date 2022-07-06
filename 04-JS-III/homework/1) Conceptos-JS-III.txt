@@ -1,0 +1,2 @@
+Arrays: un array es como una variable un espacio para guardar datos, con la diferencia
+que se puede almacenar mas de un tipo de dato (variables, numeros, booleanos).
