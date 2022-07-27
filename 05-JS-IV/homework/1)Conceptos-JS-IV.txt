@@ -1,0 +1,15 @@
+Objetos: un objeto es como una variable y un array, un espacio para guardar datos. A diferencia de los
+arrays que tienen elementos valorados en índices, los objetos usan un concepto llamado pares de 
+clave:valor. La clave es el identificador y valor es el valor que guardamos en esa clave.
+Es una colección de propiedades.
+
+Propiedades: una propiedad es una asosiación entre una clave y un valor.
+
+Métodos: métodos son cuando los valores se establecen en funciones
+
+Bucle `for…in`: es como el bucle for, pero sirve para recorrer las claves de los objetos.
+
+Notación de puntos vs notación de corchetes: son dos formas diferentes para acceder a los valores del
+objeto. Con notación de puntos sería nombre del objeto, un punto y el nombre de la clave, y con notación 
+de corchetes es como llamar un elemento en un array mediante corchetes pero se debe usar un string o un 
+número o variable que apunte a un string o número.

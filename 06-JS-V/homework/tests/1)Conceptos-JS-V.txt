@@ -1,0 +1,4 @@
+
+`prototype`: Es como un historial de metodos al que pueden acceder los objetos y heredar funciones unos de otros.
+
+_Constructors_ (de Clases): Es un tipo de función que sirve de molde para crear nuevos objetos.

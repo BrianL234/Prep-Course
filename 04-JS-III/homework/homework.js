@@ -171,7 +171,12 @@ function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí
- 
+  for(var a = 0; a < arreglo.length; a++){
+    if(arreglo[a] === arreglo[a+1]){
+      return true;
+    }
+  }
+  return false;
 } 
 
 
@@ -180,6 +185,19 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
+  var meses = [];
+  for(var a = 0; a < array.length; a++){
+    if(array[a] === "Enero" || array[a] === "Marzo" || array[a] === "Noviembre"){
+      meses.push(array[a]);
+    }
+  }
+  if(meses.length < 3){
+    return "No se encontraron los meses pedidos";
+  }
+  else{
+    return meses;
+  }
+  
 }
 
 
@@ -187,6 +205,13 @@ function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
+  var mayora100 = [];
+  for(var a = 0; a < array.length; a++){
+    if(array[a] > 100){
+      mayora100.push(array[a]);
+    }
+  }
+  return mayora100;
 }
 
 
@@ -198,6 +223,19 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
+  var nuevovalor = [];
+  var suma2 = numero;
+  for(var a = 0; a < 10; a++){
+    suma2 = suma2 + 2;
+    if(suma2 === a){
+      break;
+    }
+    nuevovalor.push(suma2);
+  }
+  if(a < 10){
+    return "Se interrumpió la ejecución";
+  } 
+  return nuevovalor;
 }
 
 
@@ -208,6 +246,16 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
+  var nuevovalor = [];
+  var suma2 = numero;
+  for(var a = 0; a < 10; a++){
+    if(a === 5){
+      continue;
+    }
+    suma2 = suma2 + 2;
+    nuevovalor.push(suma2);
+  }
+  return nuevovalor;
 }
 
 
